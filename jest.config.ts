@@ -1,7 +1,7 @@
 import type { Config } from "@jest/types";
 
-const codePath = "<rootDir>/src/app/server_app/handlers";
-const testPath = "<rootDir>/src/test/server_app/handlers";
+const codePath = "<rootDir>/src/app/server_app/utils";
+const testPath = "<rootDir>/src/test/server_app/utils";
 
 const config: Config.InitialOptions = {
   preset: "ts-jest",
